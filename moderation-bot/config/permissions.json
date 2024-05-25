@@ -1,0 +1,33 @@
+{
+  "moderation-bot": {
+    "permissions.json": {
+      "auto_moderation": {
+        "ban_members": false,
+        "kick_members": true,
+        "mute_members": true,
+        "unmute_members": true,
+        "warn_members": true,
+        "delete_messages": true,
+        "purge_messages": true
+      },
+      "custom_commands": {
+        "create_commands": true,
+        "delete_commands": true,
+        "edit_commands": true
+      },
+      "user_management": {
+        "add_roles": true,
+        "remove_roles": true,
+        "ban_users": true,
+        "unban_users": true,
+        "warn_users": true,
+        "view_user_info": true
+      },
+      "logging": {
+        "log_messages": true,
+        "log_member_actions": true,
+        "log_user_warnings": true
+      }
+    }
+  }
+}
